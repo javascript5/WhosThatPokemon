@@ -1,6 +1,6 @@
 # :tada: Who's That Pokemon? :tada:
 
-![alt text](https://github.com/javascript5/WhosThatPokemon/blob/master/Screenshot/Screen%20Shot%202562-02-24%20at%2014.49.18.png?raw=true =250px)
+![alt text](https://github.com/javascript5/WhosThatPokemon/blob/master/Screenshot/Screen%20Shot%202562-02-24%20at%2014.49.18.png =250px)
 
 ## 
 ### How to install
