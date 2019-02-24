@@ -51,7 +51,7 @@ class GamePlayViewController: UIViewController {
         if answer == textField.text!.lowercased(){
             loadPokemonData()
             score += 10;
-            scoreLabel.text = "score : \(scorec)"
+            scoreLabel.text = "score : \(score)"
             textField.text = ""
         }else{
             incorrectLabel.text = "\(textField.text!)"
