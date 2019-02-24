@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94545FBC4B6A3BCC3FDC3724 /* Pods_GuessMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BB94EA21D451B9E8B9FE87 /* Pods_GuessMeTests.framework */; };
+		98142FE02222738700476056 /* PokemonApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98142FDF2222738700476056 /* PokemonApiManager.swift */; };
+		98702BDE22224E1D00D86C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98702BDD22224E1D00D86C5C /* AppDelegate.swift */; };
+		98702BE022224E1D00D86C5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98702BDF22224E1D00D86C5C /* ViewController.swift */; };
+		98702BE322224E1D00D86C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98702BE122224E1D00D86C5C /* Main.storyboard */; };
+		98702BE522224E1D00D86C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98702BE422224E1D00D86C5C /* Assets.xcassets */; };
+		98702BE822224E1D00D86C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98702BE622224E1D00D86C5C /* LaunchScreen.storyboard */; };
+		98702BF322224E1E00D86C5C /* GuessMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98702BF222224E1E00D86C5C /* GuessMeTests.swift */; };
+		98702BFE22224E1E00D86C5C /* GuessMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98702BFD22224E1E00D86C5C /* GuessMeUITests.swift */; };
+		98702C0E2222526A00D86C5C /* GamePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98702C0D2222526A00D86C5C /* GamePlayViewController.swift */; };
+		98E87C8B2222784A005AB648 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E87C8A2222784A005AB648 /* PokemonModel.swift */; };
+		B540DD8EE3B8E729BDAB1F93 /* Pods_GuessMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B9CA66D2086D02E512A547 /* Pods_GuessMeUITests.framework */; };
+		E266C2FEE9C64CBEBB6A9088 /* Pods_GuessMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DA6416AC434AB2561820F4 /* Pods_GuessMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98702BEF22224E1E00D86C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98702BD222224E1D00D86C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98702BD922224E1D00D86C5C;
+			remoteInfo = GuessMe;
+		};
+		98702BFA22224E1E00D86C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98702BD222224E1D00D86C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98702BD922224E1D00D86C5C;
+			remoteInfo = GuessMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F2FC03EDFA7D793B50C88C /* Pods-GuessMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessMe.release.xcconfig"; path = "Target Support Files/Pods-GuessMe/Pods-GuessMe.release.xcconfig"; sourceTree = "<group>"; };
+		50FD8A2617E234F83267EEFE /* Pods-GuessMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-GuessMeUITests/Pods-GuessMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51B9CA66D2086D02E512A547 /* Pods_GuessMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64759B86F2392FCF80B8D4C3 /* Pods-GuessMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessMeUITests.release.xcconfig"; path = "Target Support Files/Pods-GuessMeUITests/Pods-GuessMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98142FDF2222738700476056 /* PokemonApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonApiManager.swift; sourceTree = "<group>"; };
+		98702BDA22224E1D00D86C5C /* GuessMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98702BDD22224E1D00D86C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98702BDF22224E1D00D86C5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98702BE222224E1D00D86C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98702BE422224E1D00D86C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98702BE722224E1D00D86C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98702BE922224E1D00D86C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98702BEE22224E1E00D86C5C /* GuessMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98702BF222224E1E00D86C5C /* GuessMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessMeTests.swift; sourceTree = "<group>"; };
+		98702BF422224E1E00D86C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98702BF922224E1E00D86C5C /* GuessMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98702BFD22224E1E00D86C5C /* GuessMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessMeUITests.swift; sourceTree = "<group>"; };
+		98702BFF22224E1E00D86C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98702C0D2222526A00D86C5C /* GamePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayViewController.swift; sourceTree = "<group>"; };
+		98E87C8A2222784A005AB648 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		B1B1D677694528662EAD2490 /* Pods-GuessMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessMeTests.release.xcconfig"; path = "Target Support Files/Pods-GuessMeTests/Pods-GuessMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3DA6416AC434AB2561820F4 /* Pods_GuessMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A41203546CC180E3FBE370 /* Pods-GuessMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessMeTests.debug.xcconfig"; path = "Target Support Files/Pods-GuessMeTests/Pods-GuessMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3BEA7F08DB4D2C7903B28A1 /* Pods-GuessMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessMe.debug.xcconfig"; path = "Target Support Files/Pods-GuessMe/Pods-GuessMe.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BB94EA21D451B9E8B9FE87 /* Pods_GuessMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuessMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98702BD722224E1D00D86C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E266C2FEE9C64CBEBB6A9088 /* Pods_GuessMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98702BEB22224E1E00D86C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94545FBC4B6A3BCC3FDC3724 /* Pods_GuessMeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98702BF622224E1E00D86C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B540DD8EE3B8E729BDAB1F93 /* Pods_GuessMeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ABF83E3A3BC059623A5A835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3DA6416AC434AB2561820F4 /* Pods_GuessMe.framework */,
+				E5BB94EA21D451B9E8B9FE87 /* Pods_GuessMeTests.framework */,
+				51B9CA66D2086D02E512A547 /* Pods_GuessMeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98702BD122224E1D00D86C5C = {
+			isa = PBXGroup;
+			children = (
+				98702BDC22224E1D00D86C5C /* GuessMe */,
+				98702BF122224E1E00D86C5C /* GuessMeTests */,
+				98702BFC22224E1E00D86C5C /* GuessMeUITests */,
+				98702BDB22224E1D00D86C5C /* Products */,
+				D07602BD5D35D3AEFDDC476D /* Pods */,
+				3ABF83E3A3BC059623A5A835 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98702BDB22224E1D00D86C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98702BDA22224E1D00D86C5C /* GuessMe.app */,
+				98702BEE22224E1E00D86C5C /* GuessMeTests.xctest */,
+				98702BF922224E1E00D86C5C /* GuessMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98702BDC22224E1D00D86C5C /* GuessMe */ = {
+			isa = PBXGroup;
+			children = (
+				98702BDD22224E1D00D86C5C /* AppDelegate.swift */,
+				98702BDF22224E1D00D86C5C /* ViewController.swift */,
+				98702BE122224E1D00D86C5C /* Main.storyboard */,
+				98702BE422224E1D00D86C5C /* Assets.xcassets */,
+				98702BE622224E1D00D86C5C /* LaunchScreen.storyboard */,
+				98702C0D2222526A00D86C5C /* GamePlayViewController.swift */,
+				98702BE922224E1D00D86C5C /* Info.plist */,
+				98142FDF2222738700476056 /* PokemonApiManager.swift */,
+				98E87C8A2222784A005AB648 /* PokemonModel.swift */,
+			);
+			path = GuessMe;
+			sourceTree = "<group>";
+		};
+		98702BF122224E1E00D86C5C /* GuessMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				98702BF222224E1E00D86C5C /* GuessMeTests.swift */,
+				98702BF422224E1E00D86C5C /* Info.plist */,
+			);
+			path = GuessMeTests;
+			sourceTree = "<group>";
+		};
+		98702BFC22224E1E00D86C5C /* GuessMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98702BFD22224E1E00D86C5C /* GuessMeUITests.swift */,
+				98702BFF22224E1E00D86C5C /* Info.plist */,
+			);
+			path = GuessMeUITests;
+			sourceTree = "<group>";
+		};
+		D07602BD5D35D3AEFDDC476D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3BEA7F08DB4D2C7903B28A1 /* Pods-GuessMe.debug.xcconfig */,
+				06F2FC03EDFA7D793B50C88C /* Pods-GuessMe.release.xcconfig */,
+				D9A41203546CC180E3FBE370 /* Pods-GuessMeTests.debug.xcconfig */,
+				B1B1D677694528662EAD2490 /* Pods-GuessMeTests.release.xcconfig */,
+				50FD8A2617E234F83267EEFE /* Pods-GuessMeUITests.debug.xcconfig */,
+				64759B86F2392FCF80B8D4C3 /* Pods-GuessMeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98702BD922224E1D00D86C5C /* GuessMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98702C0222224E1E00D86C5C /* Build configuration list for PBXNativeTarget "GuessMe" */;
+			buildPhases = (
+				B17C25F30DC40C315EAF07AC /* [CP] Check Pods Manifest.lock */,
+				98702BD622224E1D00D86C5C /* Sources */,
+				98702BD722224E1D00D86C5C /* Frameworks */,
+				98702BD822224E1D00D86C5C /* Resources */,
+				877987441B64BD0D896BBFDB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessMe;
+			productName = GuessMe;
+			productReference = 98702BDA22224E1D00D86C5C /* GuessMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98702BED22224E1E00D86C5C /* GuessMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98702C0522224E1E00D86C5C /* Build configuration list for PBXNativeTarget "GuessMeTests" */;
+			buildPhases = (
+				8FD9F116CF6377FF64133450 /* [CP] Check Pods Manifest.lock */,
+				98702BEA22224E1E00D86C5C /* Sources */,
+				98702BEB22224E1E00D86C5C /* Frameworks */,
+				98702BEC22224E1E00D86C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98702BF022224E1E00D86C5C /* PBXTargetDependency */,
+			);
+			name = GuessMeTests;
+			productName = GuessMeTests;
+			productReference = 98702BEE22224E1E00D86C5C /* GuessMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98702BF822224E1E00D86C5C /* GuessMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98702C0822224E1E00D86C5C /* Build configuration list for PBXNativeTarget "GuessMeUITests" */;
+			buildPhases = (
+				CEC96E9025B20F757B718A39 /* [CP] Check Pods Manifest.lock */,
+				98702BF522224E1E00D86C5C /* Sources */,
+				98702BF622224E1E00D86C5C /* Frameworks */,
+				98702BF722224E1E00D86C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98702BFB22224E1E00D86C5C /* PBXTargetDependency */,
+			);
+			name = GuessMeUITests;
+			productName = GuessMeUITests;
+			productReference = 98702BF922224E1E00D86C5C /* GuessMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98702BD222224E1D00D86C5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = pleng;
+				TargetAttributes = {
+					98702BD922224E1D00D86C5C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					98702BED22224E1E00D86C5C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 98702BD922224E1D00D86C5C;
+					};
+					98702BF822224E1E00D86C5C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 98702BD922224E1D00D86C5C;
+					};
+				};
+			};
+			buildConfigurationList = 98702BD522224E1D00D86C5C /* Build configuration list for PBXProject "GuessMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98702BD122224E1D00D86C5C;
+			productRefGroup = 98702BDB22224E1D00D86C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98702BD922224E1D00D86C5C /* GuessMe */,
+				98702BED22224E1E00D86C5C /* GuessMeTests */,
+				98702BF822224E1E00D86C5C /* GuessMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98702BD822224E1D00D86C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98702BE822224E1D00D86C5C /* LaunchScreen.storyboard in Resources */,
+				98702BE522224E1D00D86C5C /* Assets.xcassets in Resources */,
+				98702BE322224E1D00D86C5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98702BEC22224E1E00D86C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98702BF722224E1E00D86C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		877987441B64BD0D896BBFDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuessMe/Pods-GuessMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuessMe/Pods-GuessMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD9F116CF6377FF64133450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17C25F30DC40C315EAF07AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC96E9025B20F757B718A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuessMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98702BD622224E1D00D86C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98142FE02222738700476056 /* PokemonApiManager.swift in Sources */,
+				98702BE022224E1D00D86C5C /* ViewController.swift in Sources */,
+				98702C0E2222526A00D86C5C /* GamePlayViewController.swift in Sources */,
+				98E87C8B2222784A005AB648 /* PokemonModel.swift in Sources */,
+				98702BDE22224E1D00D86C5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98702BEA22224E1E00D86C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98702BF322224E1E00D86C5C /* GuessMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98702BF522224E1E00D86C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98702BFE22224E1E00D86C5C /* GuessMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98702BF022224E1E00D86C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98702BD922224E1D00D86C5C /* GuessMe */;
+			targetProxy = 98702BEF22224E1E00D86C5C /* PBXContainerItemProxy */;
+		};
+		98702BFB22224E1E00D86C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98702BD922224E1D00D86C5C /* GuessMe */;
+			targetProxy = 98702BFA22224E1E00D86C5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98702BE122224E1D00D86C5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98702BE222224E1D00D86C5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98702BE622224E1D00D86C5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98702BE722224E1D00D86C5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98702C0022224E1E00D86C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98702C0122224E1E00D86C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98702C0322224E1E00D86C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BEA7F08DB4D2C7903B28A1 /* Pods-GuessMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleng.GuessMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98702C0422224E1E00D86C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F2FC03EDFA7D793B50C88C /* Pods-GuessMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleng.GuessMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98702C0622224E1E00D86C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A41203546CC180E3FBE370 /* Pods-GuessMeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleng.GuessMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessMe.app/GuessMe";
+			};
+			name = Debug;
+		};
+		98702C0722224E1E00D86C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B1D677694528662EAD2490 /* Pods-GuessMeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleng.GuessMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessMe.app/GuessMe";
+			};
+			name = Release;
+		};
+		98702C0922224E1E00D86C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FD8A2617E234F83267EEFE /* Pods-GuessMeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleng.GuessMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessMe;
+			};
+			name = Debug;
+		};
+		98702C0A22224E1E00D86C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64759B86F2392FCF80B8D4C3 /* Pods-GuessMeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuessMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleng.GuessMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98702BD522224E1D00D86C5C /* Build configuration list for PBXProject "GuessMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98702C0022224E1E00D86C5C /* Debug */,
+				98702C0122224E1E00D86C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98702C0222224E1E00D86C5C /* Build configuration list for PBXNativeTarget "GuessMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98702C0322224E1E00D86C5C /* Debug */,
+				98702C0422224E1E00D86C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98702C0522224E1E00D86C5C /* Build configuration list for PBXNativeTarget "GuessMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98702C0622224E1E00D86C5C /* Debug */,
+				98702C0722224E1E00D86C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98702C0822224E1E00D86C5C /* Build configuration list for PBXNativeTarget "GuessMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98702C0922224E1E00D86C5C /* Debug */,
+				98702C0A22224E1E00D86C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98702BD222224E1D00D86C5C /* Project object */;
+}
